@@ -1,0 +1,60 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "个人资费"
+			}
+		}
+	    ,{
+            "path" : "pages/mall/mall",
+            "style" : {"navigationBarTitleText": "积分商城"}
+        }
+        ,{
+            "path" : "pages/wide/wide",
+            "style" : {"navigationBarTitleText": "宽带业务"}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {"navigationBarTitleText": "搜索"}
+        }
+        ,{
+            "path" : "pages/exchange/exchange",
+            "style" : {"navigationBarTitleText": "积分兑换"}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {"navigationBarTitleText": "商品详情"}
+        }
+        ,{
+            "path" : "pages/recharge/recharge",
+            "style" : {"navigationBarTitleText": "充值中心"}
+        }
+        ,{
+            "path" : "pages/bill/bill",
+            "style" : {"navigationBarTitleText": "话费账单"}
+        }
+        ,{
+            "path" : "pages/newly/newly",
+            "style" : {"navigationBarTitleText": "新装宽带"}
+        },{
+					"path":"pages/ahead-5g/ahead-5g",
+					"style":{"navigationBarTitleText": "超前5G "}
+				},{
+					"path":"pages/personalRate/personalRate",
+					"style":{"navigationBarTitleText": "套餐余量"}
+				}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"h5":{
+			"titleNView":false
+		},
+		"app-plus":{
+			"bounce":"none"
+		}
+	}
+}
